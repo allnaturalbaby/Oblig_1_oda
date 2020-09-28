@@ -6,3 +6,4 @@ do
 	grep -q "404 Not Found" && printf "0\t" || printf "1\t"
 	grep "$userid" /etc/passwd | cut -f5 -d: | tr -d ,
 done < <(members da-oda2001-2020 | tr " " "\n")
+123test
